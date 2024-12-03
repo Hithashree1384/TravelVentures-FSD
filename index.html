@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <nav>
+        
+        <ul class="nav_links"style="color: azure;">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#Explore">Explore</a></li>
+            <li class="link"><a href="service.html">Services</a></li>
+            <li class="link"><a href="http://localhost:3000/">Book now</a></li>
+            <li class="link"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="section_container">
+            <div class="header_content">
+                <h1 id="home">Travel</h1>
+                <p >Tourism is a sacred mission to connect people and cultures.An opportunity to experience the diversity of cultures , landscapes , and ways of life.
+                    The journey of a thousand miles begins with a single step.
+                </p>
+                <p id="moreText" style="display: none;">
+                    Tourism is a social, cultural, and economic phenomenon. It involves people seeking recreation, relaxation, and pleasure, while taking advantage of commercial services.
+                </p>
+                <button id="readMoreBtn" onclick="toggleReadMore()">Read More</button>
+            </div>
+            </div>
+        </div>
+        
+    </header>
+    <section class="journey_container">
+        <div class="section_container"></div>
+        <h2 class="section_title">Start your journey</h2>
+        <p class="section_subtitle">Most searched countries..</p>
+        <div class="journey_grid">
+            <div class="country_card">
+                <img src="images/Switzerland.jpg" alt="A beautiful landscape of Switzerland">
+                <div class="country_name">
+                
+                    <a href="Switzerland.html">SWITZERLAND</a>
+                
+                </div>
+            </div>
+            
+            <div class="country_card" id="Explore">
+                <img src="images/America.jpg"alt="A beautiful landscape of Switzerland">
+                <div class="country_name">
+                    <a href="America.html">AMERICA</a>
+                </div>
+            </div>
+            <div class="country_card">
+                <img src="images/paris.jpg"alt="The Eiffel Tower in Paris">
+                <div class="country_name">
+                    <a href="Paris.html">PARIS</a>
+                </div>
+            </div>
+            <div class="country_card" >
+                <img src="images/Korea.jpg"alt="Scenic views of Korea">
+                <div class="country_name">
+                    <a href="korea.html">KOREA</a>
+                </div>
+            </div>
+            <div class="country_card" >
+                <img src="images/Taj.jpg"alt="The TajMahal in Indiaa">
+                <div class="country_name">
+            
+                    <a href="india.html">INDIA</a></div>
+                
+            </div>
+            <div class="country_card">
+                <img src="images/Thailand.jpg"alt="Beautiful beaches of Thailand">
+                <div class="country_name">
+                    <a href="Thailand.html">THAILAND</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="banner_container">
+        <div class="section_container">
+            <div class="banner_content" id="contact">
+                <h2>Contact</h2>
+                <p>Hithashree A M<br>
+                Mob no:9353038876<br>
+                Instagram:_Hithashree_AM<br>
+                Email:hithashree1384@gmail.com</p>
+
+                <button onclick="tour()">See Tours</button>
+            </div>
+        </div>
+    </section>    
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

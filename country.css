@@ -1,0 +1,65 @@
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 1rem;
+            color: #333;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-gallery {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .box {
+            width: calc(33.33% - 1rem); /* Distribute evenly */
+            height: 100px; /* Set a fixed height for uniformity */
+            display: flex; /* Enable Flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            text-align: center; /* Center text alignment */
+            border: 1px solid #ddd; /* Add border for visibility */
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        .box img {
+            max-width: 100%; /* Restrict image size inside the box */
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .box p {
+            font-size: 14px;
+            margin: 0;
+        }
+
+        ul {
+            margin-top: 1rem;
+            padding-left: 1.5rem;
+            list-style-type: disc;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }

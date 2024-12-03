@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        h1{
+            text-align: center;
+            text-decoration-line: underline;
+        }
+        /* .services .box-container{
+            display:block;
+            grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+            gap:2rem;
+        } */
+        .service-content{
+            padding: 3rem 2 rem;
+            cursor: pointer;
+        }
+         body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            align-items:center;
+            justify-content: center;
+            
+        } 
+        h2{
+            cursor: pointer;
+        }
+        .services-container {
+           
+            flex-wrap: wrap;
+            margin-left: 800px;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .service-box {
+            display:block;
+            margin-left: 200px;
+            margin-right: 200px;
+         
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        .service-box img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            align-items: center;
+        }
+
+        .service-box h2 {
+            margin: 1rem;
+            color: #f60;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .service-box p {
+            margin: 1rem;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .new_service{
+            margin-left: 300px;
+            margin-right: 300px;
+            
+            
+        }
+        #scrollToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #f60;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Services</h1>
+    <div class="service conntainer">
+        <div class="service-box">
+            <div class="new_service"><br>
+            <img src="images/addddvee.jpeg" alt="Adventure"></div>
+        <h2 class="service-title">Adventures</h2>
+        <div class="service-content" style="display: none;">
+        
+        <img src="images/adv1.webp">
+        <p>1. Boating In River</p>
+        <p>Rhine Falls is one of the largest waterfalls in Europe. The width and height of the falls are so large that it provides a magnificent view. One can take a walk around the falls to have an excellent view of the falls. This is one of the best places for adventure sports in Switzerland. One can take a boat ride to the rocks of the falls. The boats are driven by some trained professionals. As one reaches near the rocks, they can start climbing the rocks. It is romantic to take a walk around the falls, but it is even more thrilling to take a boat ride in one of the largest falls in the world. At a time, about 6,00,000 liters of water fall from the top of the hills that even can make one close their ears. It is truly a scintillating ride.</p>
+        <img src="images/adv2.webp">
+        <p>2. Mountain Roller Coaster</p>
+        <p>One could have scaled mountains by hiking near the mountainous slopes. One could have enjoyed roller coaster rides in the amusement parks. But it is not easy to spot locations where one could enjoy roller coaster rides in mountainous locations. This rollercoaster ride was initially constructed to carry construction materials to a dam location nearby. The passengers can ride so many feet above sea level to experience the thrill of a lifetime experience. The entire roller coaster is fitted with a lot of safety gear. It more or less resembles a train compartment. This mountainous roller coaster is also constructed above the lake. Imagine taking an exhilarating ride above a body of water body. This is one hell of an experience.</p>
+    </div>
+    </div>
+    <div class="service-box">
+        <div class="new_service"><br><br>
+        <img src="images/frontadv.jpg"></div>
+        <h2 class="service-title">Trekking</h2>
+        <div class="service-content" style="display: none; cursor: pointer;">
+            <img src="images/newtrek.avif">
+            <p>Trekking take you to very close to the natural landscape. Trekking also gives you unique chance to explore the culture and the people of mountain range in India. Trekking in India is very famous throughout the world. The trekkers from remotest corner of the world come to take life time experience of Indian Trekking Treks. North Indian trekking destination is somewhat similar to paradise for trekkers. The famous trekking destinations of India are Ladakh, Himachal, Sikkim and Garhwal. All these are in Himalayan belt. Himalayas are taken as the best trekking destination in all over the world. The Himalayan foothills are just ideal for trekking, Hiking and Camping offering energetic out-door people a different and exciting option for a adventure holiday.</p>
+        </div>
+        </div>
+
+        <div class="service-box">
+            <div class="new_service"><br><br>
+            <img src="images/boating1.jpg"></div>
+            <h2 class="service-title">Boating</h2>
+            <div class="service-content" style="display: none; cursor: pointer;">
+                <img src="images/Boating2.webp">
+                <p>Boating is the leisurely activity of travelling by boat, or the recreational use of a boat whether powerboats, sailboats, or man-powered vessels (such as rowing and paddle boats), focused on the travel itself, as well as sports activities, such as fishing or waterskiing. It is a popular activity, and there are millions of boaters worldwide.</p> </div>
+            </div>
+
+        </div>
+        <button id="scrollToTop">Top</button>
+    <script src="service.js"></script>
+    
+</body>
+</html>
